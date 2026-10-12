@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vanilla JS Image Slider</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>Vanilla JavaScript Image Slider</h1>
+
+  <!-- Slider Component -->
+  <div class="slider-container">
+    
+    <!-- Viewport Overflow Mask -->
+    <div class="slider-viewport">
+      <!-- Flex-Aligned Sliding Track -->
+      <div class="slider-track">
+        <div class="slide"><img src="images/slide-1.jpg" alt="Slide 1"></div>
+        <div class="slide"><img src="images/slide-2.jpg" alt="Slide 2"></div>
+        <div class="slide"><img src="images/slide-3.jpg" alt="Slide 3"></div>
+        <div class="slide"><img src="images/slide-4.jpg" alt="Slide 4"></div>
+        <div class="slide"><img src="images/slide-5.jpg" alt="Slide 5"></div>
+      </div>
+    </div>
+
+    <!-- Navigation Arrows -->
+    <button class="slider-btn prev-btn" aria-label="Previous Slide">&#10094;</button>
+    <button class="slider-btn next-btn" aria-label="Next Slide">&#10095;</button>
+
+    <!-- Indicator Dots Container -->
+    <div class="slider-dots"></div>
+
+  </div>
+
+  <script src="slider.js"></script>
+</body>
+</html>
